@@ -7,7 +7,7 @@ import { User as UserEntity } from "entities/user-entity";
 export const createTransaction = async (
   transaction: TransactionEntity
 ): Promise<void> =>
-  getManager().transaction(async (entityManager) => {
+  getManager().transaction("SERIALIZABLE", async (entityManager) => {
     const fromUser = await entityManager.findOneOrFail(UserEntity, {
       userId: transaction.fromUser.userId,
     });
