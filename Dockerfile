@@ -1,5 +1,5 @@
 FROM node:12.20.0-alpine3.12
-LABEL maintainer="Weslen Guerreiro <weslenng@outlook.com>"
+LABEL maintainer="Weslen Guerreiro <omppye@gmail.com>"
 
 RUN npm install -g npm@next-7
 

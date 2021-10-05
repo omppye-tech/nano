@@ -1,12 +1,12 @@
 {
-  "name": "@weslenng/nano",
+  "name": "@omppye/nano",
   "version": "1.0.0",
   "main": "build/server.js",
   "scripts": {
     "build": "ttsc",
     "start": "node build/server.js"
   },
-  "author": "Weslen Guerreiro <weslenng@outlook.com>",
+  "author": "Weslen Guerreiro <omppye@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
